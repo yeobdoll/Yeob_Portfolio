@@ -6,3 +6,4 @@
 2. HTML: Navbar + icon change
 3. HTML: Home + adding font
 4. HTML: About
+5. HTML: Skills
