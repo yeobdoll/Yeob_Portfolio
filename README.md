@@ -9,3 +9,4 @@
 5. HTML: Skills
 6. HTML: Work + img size change + CorrectClassName:work
 7. HTML: Testimonials
+8. HTML: Contact
