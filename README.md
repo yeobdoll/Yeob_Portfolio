@@ -7,3 +7,4 @@
 3. HTML: Home + adding font
 4. HTML: About
 5. HTML: Skills
+6. HTML: Work + img size change + CorrectClassName:work
