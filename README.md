@@ -5,3 +5,4 @@
 1. HTML: Head + icon
 2. HTML: Navbar + icon change
 3. HTML: Home + adding font
+4. HTML: About
