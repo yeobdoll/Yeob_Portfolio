@@ -2,4 +2,5 @@
 - study
 
 ## List
-1. HTML(head) + icon
+1. HTML: Head + icon
+2. HTML: Navbar + icon change

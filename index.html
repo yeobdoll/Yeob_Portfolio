@@ -7,13 +7,37 @@
     <title>Yeob's Portforlio</title>
     <meta name="description" content="Portforlio for world-renowned software engineer Yeob">
     <meta name="author" content="Yeob">
-    <link rel="icon" type="image/png" href="imgs/atom-solid.png">
+    <link rel="icon" type="image/png" href="imgs/snowflake-regular.png">
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>   
+    <script src="https://kit.fontawesome.com/dc5398e7d5.js" crossorigin="anonymous"></script>
     <!--defer 옵션: html 파일이 parsing되는 동안 자바 스크립트 파일을 동시에 다운로드 받음. 
         다만 html이 parsing이 다 완료가 된 다음에 자바 스크립트 파일을 실행함.-->
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav id="navbar"></nav>
+        <div class="navbar__logo"></div>
+            <i class="far fa-snowflake"></i>
+            <a href="#">Yeob</a>
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item">Home</li>
+                <li class="navbar__menu__item">About</li>
+                <li class="navbar__menu__item">Skills</li>
+                <li class="navbar__menu__item">My work</li>
+                <li class="navbar__menu__item">Testimonial</li>
+                <li class="navbar__menu__item">Contact</li>
+            </ul>
+    <!-- About -->
+    <section id="about"></section>
+    <!-- Skills -->
+    <section id="skills"></section>
+    <!-- Work -->
+    <section id="wrok"></section>
+    <!-- Testimonials -->
+    <section id="testimonials"></section>
+    <!-- Contact -->
+    <section id="contact"></section>
+
 </body>
 </html>
