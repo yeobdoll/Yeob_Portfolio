@@ -7,16 +7,32 @@
     <title>Yeob's Portforlio</title>
     <meta name="description" content="Portforlio for world-renowned software engineer Yeob">
     <meta name="author" content="Yeob">
-    <link rel="icon" type="image/png" href="imgs/snowflake-regular.png">
+    
+    <script 
+        src="https://kit.fontawesome.com/dc5398e7d5.js" 
+        crossorigin="anonymous"
+    ></script>
+    <link 
+        rel="icon" 
+        type="image/png" 
+        href="imgs/snowflake-regular.png"
+    />
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;600;700&display=swap" 
+        rel="stylesheet"
+    />
+    <style>
+        h1, h2, h3, h4, h5, h6, p, a, li {font-family: 'Red Hat Mono' !important;}
+    </style>
+
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>   
-    <script src="https://kit.fontawesome.com/dc5398e7d5.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
     <!--defer 옵션: html 파일이 parsing되는 동안 자바 스크립트 파일을 동시에 다운로드 받음. 
         다만 html이 parsing이 다 완료가 된 다음에 자바 스크립트 파일을 실행함.-->
 </head>
 <body>
     <!-- Navbar -->
-    <nav id="navbar"></nav>
+    <nav id="navbar">
         <div class="navbar__logo"></div>
             <i class="far fa-snowflake"></i>
             <a href="#">Yeob</a>
@@ -28,14 +44,32 @@
                 <li class="navbar__menu__item">Testimonial</li>
                 <li class="navbar__menu__item">Contact</li>
             </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <img 
+        src="imgs/Myphoto.jpg" 
+        alt="Yeob's profile photo" 
+        class="home__avatar"
+        />
+        <h1 class="home__title">Hello, <br/>I'm Dream Coder</h1>
+        <h2 class="home__description">A data scientist who collects and analyzes data in Seoul, S.Korea</h2>
+        <button class="home__contact">Contact Me</button>
+    </section>
+
     <!-- About -->
     <section id="about"></section>
+    
     <!-- Skills -->
     <section id="skills"></section>
+
     <!-- Work -->
     <section id="wrok"></section>
+
     <!-- Testimonials -->
     <section id="testimonials"></section>
+
     <!-- Contact -->
     <section id="contact"></section>
 
