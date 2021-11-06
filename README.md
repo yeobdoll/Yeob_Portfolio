@@ -10,3 +10,4 @@
 6. HTML: Work + img size change + CorrectClassName:work
 7. HTML: Testimonials
 8. HTML: Contact
+9. CSS: Global setup
