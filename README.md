@@ -11,3 +11,4 @@
 7. HTML: Testimonials
 8. HTML: Contact
 9. CSS: Global setup
+10. CSS: Typography
