@@ -27,3 +27,4 @@
 23. JS: Transparent
 24. JS: Arrow up
 25. JS: Project filtering
+26. JS: Remove active from nav
