@@ -2,7 +2,7 @@
 
 // Make navbar transparent when it is on the top
 const navbar = document.querySelector('#navbar');
-const navbarHeight = navbar.getBoundingClientRect().height;
+const navbarHeight = navbar.getBoundingClientRect().height; // navbar의 높이를 알아올 수 있음.
 document.addEventListener('scroll', () => {
     if(window.scrollY > navbarHeight) {
         navbar.classList.add('navbar--dark'); // navbar의 classList에 class 추가
@@ -28,10 +28,16 @@ navbarMenu.addEventListener('click', (event) => {
 const homeContactBtn = document.querySelector('.home__contact');
 homeContactBtn.addEventListener('click', (event) => {
     scrollIntoView('#contact')
-})
+});
 
-function scrollIntoView(selector) {
+// Make home slowly fade to transparent as the window scrolls down
+const home = document.querySelector('.home__container');
+const homeHeight = home.getBoundingClientRect().height;
+document.addEventListener('scroll', () => {
+    home.style.opacity = 1 - window.scrollY / homeHeight;
+});
+
+function scrollIntoView(selector) { // 유틸리티 함수
     const scrollTo = document.querySelector(selector);
     scrollTo.scrollIntoView({behavior: "smooth"});
 }
-

@@ -24,3 +24,4 @@
 20. JS: Navbar
 21. JS: Navbar menu click
 22. JS: Home Contact Btn
+23. JS: Transparent
