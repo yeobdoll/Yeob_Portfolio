@@ -28,3 +28,4 @@
 24. JS: Arrow up
 25. JS: Project filtering
 26. JS: Remove active from nav
+27. JS: Navbar menu toggle & Project UI tweak
