@@ -15,3 +15,4 @@
 11. CSS: Navbar + CorrectTagName
 12. CSS: HOME
 13. CSS: About + Some modifications
+14. CSS: Skills + Some modifications
