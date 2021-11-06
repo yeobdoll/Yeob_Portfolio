@@ -21,10 +21,6 @@
         href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;600;700&display=swap" 
         rel="stylesheet"
     />
-    <style>
-        h1, h2, h3, h4, h5, h6, p, a, li {font-family: 'Red Hat Mono' !important;}
-    </style>
-
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
     <!--defer 옵션: html 파일이 parsing되는 동안 자바 스크립트 파일을 동시에 다운로드 받음. 
@@ -33,17 +29,18 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <div class="navbar__logo"></div>
+        <div class="navbar__logo">
             <i class="far fa-snowflake"></i>
             <a href="#">Yeob</a>
-            <ul class="navbar__menu">
-                <li class="navbar__menu__item">Home</li>
-                <li class="navbar__menu__item">About</li>
-                <li class="navbar__menu__item">Skills</li>
-                <li class="navbar__menu__item">My work</li>
-                <li class="navbar__menu__item">Testimonial</li>
-                <li class="navbar__menu__item">Contact</li>
-            </ul>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item active">Home</li>
+            <li class="navbar__menu__item">About</li>
+            <li class="navbar__menu__item">Skills</li>
+            <li class="navbar__menu__item">My work</li>
+            <li class="navbar__menu__item">Testimonial</li>
+            <li class="navbar__menu__item">Contact</li>
+        </ul>
     </nav>
 
     <!-- Home -->

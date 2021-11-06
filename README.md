@@ -12,3 +12,4 @@
 8. HTML: Contact
 9. CSS: Global setup
 10. CSS: Typography
+11. CSS: Navbar + CorrectTagName
