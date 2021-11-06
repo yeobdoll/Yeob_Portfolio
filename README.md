@@ -26,3 +26,4 @@
 22. JS: Home Contact Btn
 23. JS: Transparent
 24. JS: Arrow up
+25. JS: Project filtering

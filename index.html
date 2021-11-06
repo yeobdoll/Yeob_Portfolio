@@ -214,16 +214,16 @@
             <h1>My work</h1>
             <h3>Projects</h3>
             <div class="work__categories">
-                <button class="category__btn active">
+                <button class="category__btn active" data-filter="*">
                     All <span class='category__count'>6</span>
                 </button>
-                <button class="category__btn">
+                <button class="category__btn" data-filter="supervised-learning">
                     Supervised-learning <span class='category__count'>2</span>
                 </button>
-                <button class="category__btn">
+                <button class="category__btn" data-filter="unsupervised-learning">
                     Unsupervised -learning <span class='category__count'>2</span>
                 </button>
-                <button class="category__btn">
+                <button class="category__btn" data-filter="front-end">
                     Front-end <span class='category__count'>2</span>
                 </button>
             </div>
@@ -232,11 +232,9 @@
                     href="https://github.com/yeobdoll/BreamAndSmelt" 
                     class="project"
                     target="blank"
+                    data-type="supervised-learning"
                 >
-                <img
-                    class="project__img"
-                    src="imgs/projects/도미-빙어_분류.JPG" 
-                    alt="BreamAndSmelt">
+                <img class="project__img" src="imgs/projects/도미-빙어_분류.JPG" alt="BreamAndSmelt">
                 <div class="project__description">
                     <h3>Bream&SmeltClassification</h3>
                     <span>It was implemented in a collaboratory using Python.</span>
@@ -246,6 +244,7 @@
                 href="https://github.com/yeobdoll/BreamAndSmelt" 
                 class="project"
                 target="blank"
+                data-type="supervised-learning"
                 >
                 <img class="project__img" src="imgs/projects/와인_분류.JPG" alt="Wine">
                 <div class="project__description">
@@ -257,6 +256,7 @@
                 href="https://github.com/yeobdoll/BreamAndSmelt" 
                 class="project"
                 target="blank"
+                data-type="unsupervised-learning"
                 >
                 <img class="project__img" src="imgs/projects/과일_분류.JPG" alt="Fruits">
                 <div class="project__description">
@@ -268,6 +268,7 @@
                 href="https://github.com/yeobdoll/BreamAndSmelt" 
                 class="project"
                 target="blank"
+                data-type="unsupervised-learning"
                 >
                 <img class="project__img" src="imgs/projects/사과-바나나-파인애플_산점도.JPG" alt="FruitsScatterplot">
                 <div class="project__description">
@@ -279,6 +280,7 @@
                 href="https://github.com/yeobdoll/BreamAndSmelt" 
                 class="project"
                 target="blank"
+                data-type="front-end"
                 >
                 <img class="project__img" src="imgs/projects/Cards.JPG" alt="Cards">
                 <div class="project__description">
@@ -290,6 +292,7 @@
                 href="https://github.com/yeobdoll/BreamAndSmelt" 
                 class="project"
                 target="blank"
+                data-type="front-end"
                 >
                 <img class="project__img" src="imgs/projects/게임_연구실.JPG" alt="Game_Lab">
                 <div class="project__description">
