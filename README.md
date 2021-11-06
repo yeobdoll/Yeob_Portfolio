@@ -22,3 +22,4 @@
 18. CSS: fix section container
 19. CSS: Responsive
 20. JS: Navbar
+21. JS: Navbar menu click
