@@ -17,3 +17,4 @@
 13. CSS: About + Some modifications
 14. CSS: Skills + Some modifications
 15. CSS: Work
+16. CSS: Testimonials
