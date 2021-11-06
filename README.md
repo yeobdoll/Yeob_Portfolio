@@ -13,3 +13,4 @@
 9. CSS: Global setup
 10. CSS: Typography
 11. CSS: Navbar + CorrectTagName
+12. CSS: HOME
