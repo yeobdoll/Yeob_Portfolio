@@ -14,3 +14,4 @@
 10. CSS: Typography
 11. CSS: Navbar + CorrectTagName
 12. CSS: HOME
+13. CSS: About + Some modifications
